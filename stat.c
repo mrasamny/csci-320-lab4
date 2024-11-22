@@ -16,10 +16,10 @@ void increment_page_fault_count(){
     page_fault_count++;
 }
 
-float get_TLB_hit_rate(){
-    return tlb_hit_count/total_page_requests;
+double get_TLB_hit_rate(){
+    return (double)tlb_hit_count/total_page_requests;
 }
 
-float get_page_fault_rate(){
-    return page_fault_count/total_page_requests;
+double get_page_fault_rate(){
+    return (double)page_fault_count/total_page_requests;
 }

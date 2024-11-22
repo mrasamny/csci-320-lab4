@@ -54,8 +54,8 @@ int roll_in(unsigned char page, unsigned char frame);
 void close_backing_store();
 
 // Stats functions
-float get_TLB_hit_rate();
-float get_page_fault_rate();
+double get_TLB_hit_rate();
+double get_page_fault_rate();
 void increment_tlb_hit();
 void increment_page_fault_count();
 void increment_total_page_request();
