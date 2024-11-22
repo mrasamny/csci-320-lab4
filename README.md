@@ -1,4 +1,4 @@
-# Programming Lab 4: Designing a Virtual Memory Manager
+# Programming Lab 4: Simulating a Virtual Memory Manager
 
 ## Learning Outcomes
 
